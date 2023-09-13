@@ -1,3 +1,5 @@
+package Class;
+
 import java.util.Scanner;
 
 public class Ex2 {
@@ -6,6 +8,6 @@ public class Ex2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Mời nhập số tiền USD: ");
         int moneyUsd = scanner.nextInt();
-        System.out.println("Số tiền việt là :" +moneyUsd*rate);
+        System.out.println("Số tiền việt là :" + moneyUsd * rate);
     }
 }

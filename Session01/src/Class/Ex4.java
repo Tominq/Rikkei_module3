@@ -1,3 +1,5 @@
+package Class;
+
 import java.util.Scanner;
 
 public class Ex4 {
@@ -7,7 +9,7 @@ public class Ex4 {
         double length = scanner.nextDouble();
         System.out.println("Nhập chiều rộng: ");
         double width = scanner.nextDouble();
-        System.out.println("Diện tích: " +width*length);
-        System.out.println("chu vi: " +2*(width+length));
+        System.out.println("Diện tích: " + width * length);
+        System.out.println("chu vi: " + 2 * (width + length));
     }
 }
