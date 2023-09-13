@@ -34,7 +34,6 @@ public class Ex5 {
         } else {
             System.out.println("Xếp loại học lực: Xuất sắc");
         }
-
         scanner.close();
     }
 }
